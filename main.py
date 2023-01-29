@@ -1,10 +1,9 @@
 import requests
 import json
 from weather import *
+import keys
 
-TOKEN = 'MTA2NzIyNDM5ODYxODE3NzYxNw.GIEzXC.yNSvSdVDzsgPL8LvnHdnB5Dnd9lRrDmIuryT0c'
 client = discord.Client(intents=discord.Intents.all())
-api_key = '1deaa80dc847f8375b9c903b2a4332db'
 command_prefix = 'w.'
 
 
