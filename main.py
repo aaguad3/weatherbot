@@ -1,7 +1,7 @@
 import requests
 import json
 from weather import *
-import keys
+from keys import *
 
 client = discord.Client(intents=discord.Intents.all())
 command_prefix = 'w.'
